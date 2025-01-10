@@ -8,11 +8,11 @@ import Input from "./Input";
 const App = () => {
   return (
     <div>
+         <ClickButton/>
        <Input/>
       <Counter />
       <BoxButton />
        <ColorChangingBox/>
-       <ClickButton/>
     </div>
   );
 };

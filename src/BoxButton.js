@@ -10,7 +10,6 @@ const ColorChangingBox = () => {
 
   return (
     <div style={{ textAlign: 'center', marginTop: '50px' }}>
-     
       <div
         style={{
           width: '200px',
