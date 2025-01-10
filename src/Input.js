@@ -8,7 +8,7 @@ function Input() {
   };
 
   return (
-    <div style={{ padding: "20px", fontFamily: "Arial, sans-serif", }}>
+    <div style={{ padding: "20px",  }}>
       <input
         type="text"
         value={inputText}
@@ -21,7 +21,6 @@ function Input() {
           marginTop: "20px",
           padding: "10px",
           backgroundColor: "#f0f0f0",
-          border: "1px solid #ccc",
           width: "300px",
           textAlign: "center",
         }}
@@ -31,5 +30,4 @@ function Input() {
     </div>
   );
 }
-
 export default Input;
