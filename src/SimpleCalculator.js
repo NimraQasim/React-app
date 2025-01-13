@@ -9,7 +9,6 @@ function App() {
     const sum = parseFloat(num1) + parseFloat(num2);
     setResult(sum);
   };
-
   return (
     <div style={{ textAlign: "center", marginTop: "50px" }}>
       <h1>Simple Calculator</h1>
