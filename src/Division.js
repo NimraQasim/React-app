@@ -12,7 +12,7 @@ function App() {
   return (
     <div style={{ textAlign: "center", marginTop: "50px" }}>
       <h1>Division</h1>
-      <input type="number" placeholder='First number' value={num1} onChange={(e) => setNum1(e.target.value)} />
+      <input type="number" placeholder='First number' value={num1} onChange={(e) => setNum1(e.target.value)}  />
       <input type="number" placeholder='Second number' value={num2} onChange={(e) => setNum2(e.target.value)} />
       <button onClick={handleDivision}>Divide</button>
       <div>{result}</div>
