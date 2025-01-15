@@ -39,29 +39,17 @@ function Input() {
 
   return (
     <div
-      style={{
-        marginTop: "30px",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        flexDirection: "column",
-      }}
+      className="mt-8 flex flex-col items-center"
     >
       <input
         type="text"
         value={inputText}
         onChange={(e) => setInputText(e.target.value)}
         placeholder="Type something..."
-        style={{ padding: "8px", width: "300px", textAlign: "center" }}
+        className="p-2 w-[300px] border border-black rounded"
       />
       <div
-        style={{
-          marginTop: "20px",
-          padding: "10px",
-          backgroundColor: "#f0f0f0",
-          width: "300px",
-          textAlign: "center",
-        }}
+        className="mt-5 p-3 bg-slate-300 w-[300px] rounded-md"
       >
         {inputText}
       </div>

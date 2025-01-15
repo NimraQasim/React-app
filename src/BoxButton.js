@@ -22,12 +22,7 @@ const ColorChangingBox = () => {
 
       <button
         onClick={changeColor}
-        style={{
-          marginTop: '20px',
-          padding: '10px 20px',
-          fontSize: '16px',
-          cursor: 'pointer',
-        }}
+        className='mt-5 p-3 rounded text-sm border border-red-400 bg-red-300 cursor-pointer'
       >
         Change Color
       </button>

@@ -1,32 +1,12 @@
-// import React, { useState } from 'react';
-
-// function ClickButton() {
-//   const [message, setMessage] = useState('Hello, Welcome to React!');
-
-//   const changeMessage = () => {
-//     setMessage('You have clicked the button!');
-//   };
-
-//   return (
-//     <div style={{ textAlign: 'center', marginTop: '50px' }}>
-//       <h1>{message}</h1>
-//       <button onClick={changeMessage} style={{ padding: '10px 20px', fontSize: '16px' }}>
-//         Click Me
-//       </button>
-//     </div>
-//   );
-// // }
-
-// export default ClickButton;
 
 import React, { useState } from "react";
 
 function DisplayInputText() {
-  const [inputText, setInputText] = useState(""); 
-  const [outputText, setOutputText] = useState(""); 
+  const [inputText, setInputText] = useState("");
+  const [outputText, setOutputText] = useState("");
 
   const handleInputChange = (e) => {
-    setInputText(e.target.value); 
+    setInputText(e.target.value);
   };
 
   const handleButtonClick = () => {
@@ -34,33 +14,25 @@ function DisplayInputText() {
   };
 
   return (
-    <div style={{ textAlign: "center", marginTop: "50px" }}>
-      <input
+    <div className="text-center mt-12 flex flex-col gap-3">
+   <div className="flex items-center gap-6 justify-center">
+   <input
         type="text"
         value={inputText}
         onChange={handleInputChange}
         placeholder="Enter text"
-        style={{
-          padding: "10px",
-          marginRight: "10px",
-          width: "300px",
-        }}
+        className=" p-2 w-[300px] border border-black rounded"
       />
       <button
         onClick={handleButtonClick}
-        style={{
-          padding: "10px 20px",
-          cursor: "pointer",
-        }}
+        className=" p-2 rounded text-sm border border-red-400 bg-red-300 cursor-pointer mr-2"
       >
         Show Text
       </button>
-      {outputText && (
-        <p style={{ marginTop: "20px",  }}>
-          {outputText}
-        </p>
-      )}
+   </div>
+   {outputText && <p className="mb-2">{outputText}</p>}
     </div>
+    
   );
 }
 
