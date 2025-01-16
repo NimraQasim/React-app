@@ -12,15 +12,16 @@ import Input from "./Input";
 const App = () => {
   return (
     <div>
-      <Multiplication/>
-      <Division/>
+      <h1>My Daily Tasks</h1>
+      <Multiplication />
+      <Division />
       <Subtraction />
       <SimpleCalculator />
       <Input />
       <Counter />
       <BoxButton />
       <ColorChangingBox />
-       <ClickButton />
+      <ClickButton />
     </div>
   );
 };
