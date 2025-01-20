@@ -4,7 +4,7 @@ function MultiplyNumbers() {
   const [result, setResult] = useState(null);
 
   return (
-    <div className="text-center mt-12 flex flex-col gap-3">
+    <div className="text-center mt-12 flex flex-col gap-3 justify-center items-center">
       <h1 className="font-bold text-2xl">Multiplication</h1>
       <div className="flex items-center gap-6 justify-center">
         <input

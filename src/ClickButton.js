@@ -12,7 +12,6 @@ function DisplayInputText() {
   const handleButtonClick = () => {
     setOutputText(inputText);
   };
-
   return (
     <div className="text-center mt-12 flex flex-col gap-3">
    <div className="flex items-center gap-6 justify-center">
@@ -32,8 +31,6 @@ function DisplayInputText() {
    </div>
    {outputText && <p className="mb-2">{outputText}</p>}
     </div>
-    
   );
 }
-
 export default DisplayInputText;
