@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="text-center mt-12 flex flex-col gap-3">
       <p className="font-bold text-2xl">Division</p>
-      <div className="flex items-center gap-6 justify-center">
+      <div className="flex items-center gap-6 justify-center flex-col">
         <input
           className="border border-red-400 pl-2 rounded"
           type="number"

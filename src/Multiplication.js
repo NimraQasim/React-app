@@ -6,7 +6,7 @@ function MultiplyNumbers() {
   return (
     <div className="text-center mt-12 flex flex-col gap-3 justify-center items-center">
       <h1 className="font-bold text-2xl">Multiplication</h1>
-      <div className="flex items-center gap-6 justify-center">
+      <div className="flex items-center gap-6 justify-center flex-col h-full">
         <input
           id="num1"
           type="number"

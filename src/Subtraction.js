@@ -6,7 +6,7 @@ export default function SubtractNumbers() {
   return (
     <div className="text-center mt-12 flex flex-col gap-3">
       <h1 className="font-bold text-2xl">Subtraction</h1>
-      <div className="flex items-center gap-6 justify-center">
+      <div className="flex  flex-col items-center gap-6 justify-center">
         <input
           className="border border-red-400 pl-2
           rounded"

@@ -10,6 +10,7 @@ const ColorChangingBox = () => {
 
   return (
     <div style={{ textAlign: 'center', marginTop: '50px' }}>
+        <p className="font-bold text-2xl pb-9 flex flex-wrap mx-auto max-w-[300px]">On clicking the button, the background of the box changes.</p>
       <div
         style={{
           width: '200px',

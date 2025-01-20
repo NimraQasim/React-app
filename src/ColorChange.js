@@ -13,6 +13,7 @@ const ColorChanging = () => {
 
   return (
     <div style={{ textAlign: 'center', marginTop: '50px' }}>
+           <p className="font-bold text-2xl pb-9 flex flex-wrap max-w-80 mx-auto">On clicking the button, different colors change, and on resetting, the original color returns. </p>
       <div
         style={{
           width: '200px',
@@ -20,6 +21,7 @@ const ColorChanging = () => {
           margin: '0 auto',
           backgroundColor: colors[colorIndex],
           transition: 'background-color 0.3s ease',
+
         }}
       ></div>
 

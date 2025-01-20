@@ -14,6 +14,7 @@ function DisplayInputText() {
   };
   return (
     <div className="text-center mt-12 flex flex-col gap-3">
+    <p className="font-bold text-2xl pb-9 flex flex-wrap mx-auto  max-w-[420px]">After typing in the input field, when we click the button, the text from the input will start appearing below separately.</p>
    <div className="flex items-center gap-6 justify-center">
    <input
         type="text"
